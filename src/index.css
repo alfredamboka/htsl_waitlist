@@ -1,0 +1,17 @@
+/* --- roboto & work sans  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Quattrocento+Sans:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* --- css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* --- hides scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+

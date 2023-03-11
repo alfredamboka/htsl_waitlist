@@ -1,0 +1,30 @@
+.countdown-container {
+    width: 100%;
+}
+.countdown {
+    padding: 0 23%;
+    display: flex;
+    justify-content: space-between;
+}
+.countdown span {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.countdown p {
+    color: #D1D1FA;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 94px;
+}
+.countdown small {
+    color: #D1D1FA;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}

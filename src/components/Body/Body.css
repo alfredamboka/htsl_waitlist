@@ -1,0 +1,79 @@
+.body-container {
+    width: 100%;
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.body-banners {
+    display: flex;
+    justify-content: space-between;
+}
+.body-banners img {
+    width: 100%;
+}
+.body-header h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 39px;
+    margin: 18% 0 5% 0;
+}
+
+.body-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    margin: 3%;
+    width: 345px;
+    height: 32vh;
+    background: #FFFFFF;
+    border: 1px solid #EDEEFD;
+    box-shadow: 0px 4px 15px rgba(230, 246, 255, 0.13), 0px 4px 30px rgba(230, 246, 255, 0.25);
+    border-radius: 10px;
+}
+.card figure {
+    height: 100%;
+    padding: 7%;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+figure:hover {
+    transition: 0.5s ease;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), -10px 10px 10px rgba(0, 0, 0, 0.01), 7px 7px 6px rgba(0, 0, 0, 0.01);
+}
+figure img {
+    width: 13%;
+    margin-bottom: 15px;
+}
+.title {
+    color: #1B212C;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.caption {
+    color: #606E7F;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 27px;
+}
+.learn-more-btn {
+    color: #5D5FEF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 25px;
+}
